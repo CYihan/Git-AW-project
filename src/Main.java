@@ -6,14 +6,17 @@ public class Main {
         int b = Integer.MAX_VALUE;
 
 
-        System.out.println(add(a,b));
-        System.out.println(subtract(b,a));
-        System.out.println(multiply(a,b););
-
-
+        System.out.println(add(a, b));
+        System.out.println(subtract(b, a));
+        System.out.println(multiply(a, b));
 
     }
+    private static int subtract(int b, int a) {
+        return b - a;
+    }
 }
+
+
 
 
 
