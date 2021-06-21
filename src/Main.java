@@ -8,11 +8,17 @@ public class Main {
 
         System.out.println(add(a,b));
         System.out.println(subtract(b,a));
-        System.out.println(multiply(a,b););
+        System.out.println(multiply(a,b));
 
 
 
     }
+
+    private static long multiply(int a, int b) {
+        return (long) a * b;
+    }
+
+
 }
 
 
