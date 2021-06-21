@@ -18,6 +18,9 @@ public class Main {
     private static int subtract(int b, int a) {
         return b - a;
     }
+    private static long multiply(int a, int b) {
+        return (long) a * b;
+    }
 
 }
 
