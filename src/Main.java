@@ -14,6 +14,14 @@ public class Main {
     public static long add(int number1, int number2){
         return (long) number1 + number2;
     }
+
+    private static int subtract(int b, int a) {
+        return b - a;
+    }
+
+
+
+
 }
 
 
